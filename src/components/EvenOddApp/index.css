@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-size: 54px;
+}
+.description {
+  color: #334155;
+  font-size: 32px;
+}
+.button {
+  background-color: #ffffff;
+  border: 2px solid #1e293b;
+  color: #1e293b;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  font-weight: 700;
+}
+.note {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 500;
+}
